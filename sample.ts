@@ -47,3 +47,14 @@ const book_2: Book = {
   author: "夏目漱石",
   published: 1914,
 };
+
+// オプショナルプロパティ
+type Person = {
+  name: string;
+  age?: number; //オプショナル
+};
+
+// ageを定義しなくともい
+const bob: Person = {
+  name: "Bob",
+};
