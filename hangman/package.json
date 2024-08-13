@@ -1,0 +1,19 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/hangma.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.2.0"
+  }
+}

@@ -10,5 +10,7 @@ const alice: ImutaclePerson = {
 };
 
 alice.name = "Jane";
-// これは値の変更を許可できない
+
+// Tuple型
+const person: [string, number] = ["Alice", 30]
 
