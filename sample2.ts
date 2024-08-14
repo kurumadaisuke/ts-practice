@@ -9,8 +9,10 @@ const alice: ImutaclePerson = {
   age: 30,
 };
 
-alice.name = "Jane";
-
 // Tuple型
-const person: [string, number] = ["Alice", 30]
+const person: [string, number] = ["Alice", 30];
 
+// 関数
+function addNumbers(a: number, b: number): number {
+  return a + b;
+}
